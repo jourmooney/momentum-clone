@@ -1,3 +1,64 @@
 .hidden {
   display: none;
 }
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+#clock {
+  font-size: 100px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+#greeting {
+  font-size: 40px;
+  font-weight: 700;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#todo-list {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#quote {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#weather {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
